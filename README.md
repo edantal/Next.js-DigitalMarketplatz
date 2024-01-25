@@ -34,3 +34,19 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+### Resources
+
+- [Tailwind CSS](https://tailwindcss.com)
+- [shadcn/ui library](https://ui.shadcn.com)
+
+<!--
+
+---
+
+### Source
+
+[Digital Marketplace with Next.js 14, React, tRPC, Tailwind 2023](https://youtu.be/06g6YJ6JCJU?si=8MwTnGWhR8yxtu3h)
+[Github](https://github.com/joschan21/digitalhippo)
+
+-->
