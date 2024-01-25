@@ -39,6 +39,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 - [Tailwind CSS](https://tailwindcss.com)
 - [shadcn/ui library](https://ui.shadcn.com)
+- [Lucide React Icons](https://lucide.dev/icons)
 
 <!--
 
