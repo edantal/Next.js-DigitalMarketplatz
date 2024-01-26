@@ -27,17 +27,17 @@ export const PRODUCT_CATEGORIES = [
       {
         name: 'Favorite Icon Picks',
         href: '#',
-        imageSrc: '/nav/icon/picks.jpg',
+        imageSrc: '/nav/icons/picks.jpg',
       },
       {
         name: 'New Arrivals',
         href: '#',
-        imageSrc: '/nav/icon/new.jpg',
+        imageSrc: '/nav/icons/new.jpg',
       },
       {
         name: 'Bestselling Icons',
         href: '#',
-        imageSrc: '/nav/icon/bestsellers.jpg',
+        imageSrc: '/nav/icons/bestsellers.jpg',
       },
     ],
   },
