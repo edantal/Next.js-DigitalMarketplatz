@@ -15,7 +15,7 @@ import {
   TAuthCredentialsValidator,
 } from '@/lib/validators/account-credentials-validator'
 
-const page = () => {
+const Page = () => {
   const {
     register,
     handleSubmit,
@@ -81,4 +81,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
