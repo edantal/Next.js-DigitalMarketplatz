@@ -9,7 +9,7 @@ export default buildConfig({
   serverURL: process.env.NEXT_PUBLIC_SERVER_URL || '',
   collections: [],
   routes: {
-    admin: '/sell',
+    admin: '/manage',
   },
   admin: {
     bundler: webpackBundler(),

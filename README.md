@@ -37,13 +37,35 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ### Resources
 
-- [Tailwind CSS](https://tailwindcss.com)
 - [shadcn/ui library](https://ui.shadcn.com)
 - [Lucide React Icons](https://lucide.dev/icons)
 
 ### Dev Tools
 
+- [Tailwind CSS](https://tailwindcss.com)
+- [Payload CMS](https://payloadcms.com)
+- [MongoDB](https://www.mongodb.com)
+- [tRPC]() <!-- maintain type-safe through FE & BE -->
 - [Excalidraw](https://excalidraw.com)
+
+### Dependencies
+
+- express
+- dotenv
+- cross-env
+- @payloadcms/bundler-webpack
+- @payloadcms/db-mongodb
+- @payloadcms/richtext-slate
+- nodemon
+- react-hook-form
+- @hookform/resolvers <!-- validate fields -->
+- zod <!-- schema validation library -->
+- sonner <!-- toast notification library -->
+- @trpc/client
+- @trpc/next
+- @trpc/react-query
+- @trpc/server
+- @tanstack/react-query
 
 <!--
 

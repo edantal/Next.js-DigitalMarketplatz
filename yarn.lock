@@ -1360,6 +1360,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@hookform/resolvers@npm:^3.3.4":
+  version: 3.3.4
+  resolution: "@hookform/resolvers@npm:3.3.4"
+  peerDependencies:
+    react-hook-form: ^7.0.0
+  checksum: f7a5b8ba59cbb0859e7a212bd5cbcbc70bbdddd21d4fbe9f4a96d149b5756470cb29857a50334d8c1c64392e21007ccf5288d26aa407431784d4006a2570cb36
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/config-array@npm:^0.11.13":
   version: 0.11.14
   resolution: "@humanwhocodes/config-array@npm:0.11.14"
@@ -1899,6 +1908,26 @@ __metadata:
     "@types/react":
       optional: true
   checksum: e2859ca58bea171c956098ace7ecf615cf9432f58a118b779a14720746b3adcf0351c36c75de131548672d3cd290ca238198acbd33b88dc4706f98312e9317ad
+  languageName: node
+  linkType: hard
+
+"@radix-ui/react-label@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "@radix-ui/react-label@npm:2.0.2"
+  dependencies:
+    "@babel/runtime": "npm:^7.13.10"
+    "@radix-ui/react-primitive": "npm:1.0.3"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: ^16.8 || ^17.0 || ^18.0
+    react-dom: ^16.8 || ^17.0 || ^18.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  checksum: a6528735b9f3e15ad83b7a905861bbc5a9b9236716957d6e99902bbfced0472aed4ddbf519bc0e6c41f528986e7acf7270cf0734a2fc380a547a8640809d3a81
   languageName: node
   linkType: hard
 
@@ -2693,10 +2722,72 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tanstack/query-core@npm:5.17.19":
+  version: 5.17.19
+  resolution: "@tanstack/query-core@npm:5.17.19"
+  checksum: b98b4c12e15c9d026db10d3b9e74689e80e100d4b3caa1c675547f2f5b369817fc5d2033501e75a37e511f9a62424d4b5ed3b4936cf075721806a949339c256e
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-query@npm:^5.17.19":
+  version: 5.17.19
+  resolution: "@tanstack/react-query@npm:5.17.19"
+  dependencies:
+    "@tanstack/query-core": "npm:5.17.19"
+  peerDependencies:
+    react: ^18.0.0
+  checksum: b3ab0a51f08a2118ff2023ea98768b0b81237be177e215675712ad71b86946d65ce0020affdd2ba7a70b0796af5d8a8896c5b95b7e43a38002bc89c2fd13217d
+  languageName: node
+  linkType: hard
+
 "@tokenizer/token@npm:^0.3.0":
   version: 0.3.0
   resolution: "@tokenizer/token@npm:0.3.0"
   checksum: 7ab9a822d4b5ff3f5bca7f7d14d46bdd8432528e028db4a52be7fbf90c7f495cc1af1324691dda2813c6af8dc4b8eb29de3107d4508165f9aa5b53e7d501f155
+  languageName: node
+  linkType: hard
+
+"@trpc/client@npm:^10.45.0":
+  version: 10.45.0
+  resolution: "@trpc/client@npm:10.45.0"
+  peerDependencies:
+    "@trpc/server": 10.45.0
+  checksum: f8df80923fd9bde42a657e6bcfb6dba79cac442f24a4d638290833fe08dc198cae1c185a99787de47667398b48a0ae04fab30985bc3698e8382515d6167302d5
+  languageName: node
+  linkType: hard
+
+"@trpc/next@npm:^10.45.0":
+  version: 10.45.0
+  resolution: "@trpc/next@npm:10.45.0"
+  peerDependencies:
+    "@tanstack/react-query": ^4.18.0
+    "@trpc/client": 10.45.0
+    "@trpc/react-query": 10.45.0
+    "@trpc/server": 10.45.0
+    next: "*"
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+  checksum: 54d449943e5d15f3ac12abe91462ede48c04df6d0178c660e0024eeeba7d0c048a47e15e13e7aa9308632c6cd458d539a5e7291d34818c0a91e721a09f326cfa
+  languageName: node
+  linkType: hard
+
+"@trpc/react-query@npm:^10.45.0":
+  version: 10.45.0
+  resolution: "@trpc/react-query@npm:10.45.0"
+  peerDependencies:
+    "@tanstack/react-query": ^4.18.0
+    "@trpc/client": 10.45.0
+    "@trpc/server": 10.45.0
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+  checksum: 768a1da7acb6061995d4004649275c6828b3224d4e0a1020ba1208bcdd49cbdfcbe2e48da185ce0dbdb9e845ba69252c12eb996a011c8bf92ce5477f4f2ca6a9
+  languageName: node
+  linkType: hard
+
+"@trpc/server@npm:^10.45.0":
+  version: 10.45.0
+  resolution: "@trpc/server@npm:10.45.0"
+  checksum: b584969104aa4e5df34551fa38576336a62ab8109aec3ac1b1036ffa391dcf2e4a875ab523beb4473dd84419a76df0bdbb8de6643a475b7a6afc1308c9b128a6
   languageName: node
   linkType: hard
 
@@ -4966,12 +5057,19 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "digitalmarktplatz@workspace:."
   dependencies:
+    "@hookform/resolvers": "npm:^3.3.4"
     "@payloadcms/bundler-webpack": "npm:^1.0.6"
     "@payloadcms/db-mongodb": "npm:^1.4.0"
     "@payloadcms/richtext-slate": "npm:^1.4.0"
     "@radix-ui/react-dialog": "npm:^1.0.5"
+    "@radix-ui/react-label": "npm:^2.0.2"
     "@radix-ui/react-separator": "npm:^1.0.3"
     "@radix-ui/react-slot": "npm:^1.0.2"
+    "@tanstack/react-query": "npm:^5.17.19"
+    "@trpc/client": "npm:^10.45.0"
+    "@trpc/next": "npm:^10.45.0"
+    "@trpc/react-query": "npm:^10.45.0"
+    "@trpc/server": "npm:^10.45.0"
     "@types/express": "npm:^4.17.21"
     "@types/node": "npm:^20"
     "@types/react": "npm:^18"
@@ -4991,11 +5089,14 @@ __metadata:
     postcss: "npm:^8"
     react: "npm:^18"
     react-dom: "npm:^18"
+    react-hook-form: "npm:^7.49.3"
+    sonner: "npm:^1.4.0"
     tailwind-merge: "npm:^2.2.1"
     tailwindcss: "npm:^3.3.0"
     tailwindcss-animate: "npm:^1.0.7"
     ts-node: "npm:^10.9.2"
     typescript: "npm:^5"
+    zod: "npm:^3.22.4"
   languageName: unknown
   linkType: soft
 
@@ -10469,6 +10570,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-hook-form@npm:^7.49.3":
+  version: 7.49.3
+  resolution: "react-hook-form@npm:7.49.3"
+  peerDependencies:
+    react: ^16.8.0 || ^17 || ^18
+  checksum: f8e5b2dcc3d97c820b4fbac262d7e914d74f385f26f34da31b8efc6c0f32ba995f2a2330bdfd3d8b7c8b56a52349a0cbc0c0dbe9053b3971e5e0c78003dfb7f0
+  languageName: node
+  linkType: hard
+
 "react-i18next@npm:11.18.6":
   version: 11.18.6
   resolution: "react-i18next@npm:11.18.6"
@@ -11425,6 +11535,16 @@ __metadata:
   dependencies:
     atomic-sleep: "npm:^1.0.0"
   checksum: f3f61cb3fd5d4aad862dd957f22318ef85bf47d4f12ba27b915112908449f752dbdfc95a4739d2b4a9b2770e1e08d349adae9d1030fdab2a3d86128c6773a7f4
+  languageName: node
+  linkType: hard
+
+"sonner@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "sonner@npm:1.4.0"
+  peerDependencies:
+    react: ^18.0.0
+    react-dom: ^18.0.0
+  checksum: 2e55de2de03dd0d103d36d18e36a891b16e42102ca789a2eea37635172d7035dea749e95ff0e36cc04f1c43c9fa72637a17a702ef184926bf1c33ed17fba18bd
   languageName: node
   linkType: hard
 
@@ -12977,5 +13097,12 @@ __metadata:
   version: 0.1.0
   resolution: "yocto-queue@npm:0.1.0"
   checksum: dceb44c28578b31641e13695d200d34ec4ab3966a5729814d5445b194933c096b7ced71494ce53a0e8820685d1d010df8b2422e5bf2cdea7e469d97ffbea306f
+  languageName: node
+  linkType: hard
+
+"zod@npm:^3.22.4":
+  version: 3.22.4
+  resolution: "zod@npm:3.22.4"
+  checksum: 7578ab283dac0eee66a0ad0fc4a7f28c43e6745aadb3a529f59a4b851aa10872b3890398b3160f257f4b6817b4ce643debdda4fb21a2c040adda7862cab0a587
   languageName: node
   linkType: hard
