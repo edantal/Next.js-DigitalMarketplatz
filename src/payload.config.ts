@@ -1,17 +1,25 @@
 import path from 'path'
 
+import dotenv from 'dotenv'
 import { webpackBundler } from '@payloadcms/bundler-webpack'
 import { mongooseAdapter } from '@payloadcms/db-mongodb'
 import { slateEditor } from '@payloadcms/richtext-slate'
 import { buildConfig } from 'payload/config'
 
+import { Users } from './collections/Users'
+
+dotenv.config({
+  path: path.resolve(__dirname, '../.env'),
+})
+
 export default buildConfig({
   serverURL: process.env.NEXT_PUBLIC_SERVER_URL || '',
-  collections: [],
+  collections: [Users],
   routes: {
     admin: '/manage',
   },
   admin: {
+    user: 'users',
     bundler: webpackBundler(),
     meta: {
       titleSuffix: '- DigitalMarktplatz',

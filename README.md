@@ -39,6 +39,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 - [shadcn/ui library](https://ui.shadcn.com)
 - [Lucide React Icons](https://lucide.dev/icons)
+- [Resend](https://resend.com)
 
 ### Dev Tools
 
@@ -66,6 +67,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - @trpc/react-query
 - @trpc/server
 - @tanstack/react-query
+- nodemailer <!-- Node email package -->
+- @types/nodemailer
 
 <!--
 
